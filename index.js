@@ -1,4 +1,4 @@
 // Code your solution in this file!
-const driv = function(arr){
+const returnFirstTwoDrivers = function(arr){
   return arr.slice(0,2)
 }

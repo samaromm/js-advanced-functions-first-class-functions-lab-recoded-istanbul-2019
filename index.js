@@ -10,5 +10,5 @@ const returnLastTwoDrivers = function(arr){
 let selectingDrivers =[returnFirstTwoDrivers,returnLastTwoDrivers]
 
 function createFareMultiplier(num){
-  
+  return function(fare){return num*fare}
 }

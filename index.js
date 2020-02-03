@@ -6,3 +6,5 @@ const returnFirstTwoDrivers = function(arr){
 const returnLastTwoDrivers = function(arr){
   return arr.slice(arr.length-2,arr.length)
 }
+
+let selectingDrivers =[returnFirstTwoDrivers,returnLastTwoDrivers]
